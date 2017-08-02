@@ -1,0 +1,51 @@
+
+body {
+  background: rgb(150, 185, 242);
+}
+
+.navbar {
+  display: flex;
+  background: white;
+  border: none;
+  max-width: 1024px;
+  height: 80px;
+  margin: auto;
+}
+
+.navitem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: inherit;
+}
+
+.brand {
+  margin-left: 20%;
+  background: teal;
+  width: 150px;
+  height: inherit;
+
+  font-size: 26px;
+  font-family: monospace;
+  text-align: center;
+  display: flex;
+  vertical-align: middle;
+
+}
+
+.navlink {
+
+  /*background: lightgreen;
+  padding-left: 15px;
+  padding-right:15px;*/
+
+  width: auto;
+  height: inherit;
+  display: flex;
+  float: right;
+
+  font-size: 16px;
+  font-family: sans-serif;
+  text-align: center;
+  vertical-align: middle;
+}

@@ -1,0 +1,129 @@
+
+
+/*html {
+  height: 100%;
+}*/
+
+nav {
+  max-width: 1024px;
+  margin: 0 auto;
+  box-shadow: 5px 5px 5px #888888;
+  margin-bottom: 50px;
+
+  /*border-bottom: medium solid wheat;*/
+
+}
+
+body {
+  max-width: 1024px;
+  margin: 0 auto;
+  background-image: url("../images/whirlpool.png");
+  font-family: monospace;
+  /*margin-bottom: 80px;*/
+  position:relative;
+  padding-bottom: 40px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: teal;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 960px;
+  min-width: 60%;
+  padding-bottom: 80px;
+}
+
+footer {
+  color: white;
+  background: #333;
+  font-family: sans-serif;
+  font-size: 12px;
+  /*width: 100%;*/
+  max-width: 1024px;
+  margin: 0 auto;
+  padding-top: 24px;
+  position: fixed;
+  bottom: -10px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  height: 40px;
+  border-top: thick solid teal;
+  box-shadow: 5px 5px 5px #888888;
+
+
+}
+
+section img {
+  float: left;
+  height: 200px;
+  width: 200px;
+  padding: 0px 16px 16px 16px;
+
+}
+
+#about {
+  /*width: 50%;*/
+  min-width: 200px;
+  max-width: 700px;
+  display: inline-block;
+  background: #eaeaea;
+  padding: 0px 16px 16px 16px;
+  /*margin-left: 40px;*/
+  box-shadow: 5px 5px 5px #888888;
+}
+
+#connect {
+  max-width: 30%;
+  display: inline-block;
+  position: absolute;
+
+  background: #eaeaea;
+  padding: 0px 16px 16px 16px;
+  margin: 24px;
+  box-shadow: 5px 5px 5px #888888;
+}
+
+#connect, #about {
+ vertical-align:top;
+}
+
+ #connect a {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   background: #666;
+   border-bottom: thin solid white;
+ }
+   #connect a:hover:not(.active) {
+       background-color: #111;
+   }
+ }
