@@ -88,6 +88,33 @@ section img {
 
 }
 
+  .button {
+    display: block;
+    padding: 12px 20px;
+  }
+
+.contact-form {
+  height: 350px;
+  width: 732px;
+}
+
+#name {
+  display: block;
+}
+
+#email {
+  display: block;
+
+}
+
+#message {
+  display: block;
+  width: 500px;
+  height: 200px;
+
+}
+
+
 #about {
   /*width: 50%;*/
   min-width: 200px;
