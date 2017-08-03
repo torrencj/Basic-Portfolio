@@ -1,17 +1,30 @@
 
 
-/*html {
-  height: 100%;
-}*/
-
 nav {
   max-width: 1024px;
   margin: 0 auto;
   box-shadow: 5px 5px 5px #888888;
   margin-bottom: 50px;
+}
 
-  /*border-bottom: medium solid wheat;*/
+h1 {
+  display: block;
+  font-size: 22px;
+  -webkit-margin-before: 0.67em;
+  -webkit-margin-after: 0.67em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: bold;
+}
 
+h2 {
+  display: block;
+  font-size: 18px;
+  -webkit-margin-before: 0.83em;
+  -webkit-margin-after: 0.83em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: bold;
 }
 
 body {
@@ -76,8 +89,10 @@ footer {
   height: 40px;
   border-top: thick solid teal;
   box-shadow: 5px 5px 5px #888888;
+}
 
-
+section {
+  /*padding: 12px;*/
 }
 
 section img {
@@ -88,53 +103,83 @@ section img {
 
 }
 
-  .button {
-    display: block;
-    padding: 12px 20px;
-  }
+/*.container {
+  /*margin: 12px;*/
+  /*padding: 12px;*/
+}
 
 .contact-form {
-  height: 350px;
+  min-height: : 350px;
   width: 732px;
+}
+
+textarea, input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.btn {
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 16px;
+  background: teal;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border: none;
+  box-shadow: 5px 5px 5px #888888;
+}
+
+.btn:hover {
+  background: #333;
+  text-decoration: none;
 }
 
 #name {
   display: block;
+  width: 40%;
+  margin: 12px 0px 12px 0px;
 }
 
 #email {
   display: block;
-
+  width: 40%;
+  margin: 12px 0px 12px 0px;
 }
 
 #message {
   display: block;
   width: 500px;
   height: 200px;
-
+  margin: 12px 0px 12px 0px;
 }
 
 
 #about {
-  /*width: 50%;*/
   min-width: 200px;
   max-width: 700px;
   display: inline-block;
   background: #eaeaea;
   padding: 0px 16px 16px 16px;
-  /*margin-left: 40px;*/
   box-shadow: 5px 5px 5px #888888;
 }
 
 #connect {
   max-width: 30%;
   display: inline-block;
-  position: absolute;
-
   background: #eaeaea;
   padding: 0px 16px 16px 16px;
   margin: 24px;
   box-shadow: 5px 5px 5px #888888;
+}
+
+aside {
+  position: relative;
+  /*right: 20%;*/
 }
 
 #connect, #about {
@@ -150,7 +195,7 @@ section img {
    background: #666;
    border-bottom: thin solid white;
  }
-   #connect a:hover:not(.active) {
-       background-color: #111;
-   }
+
+ #connect a:hover:not(.active) {
+   background-color: #111;
  }

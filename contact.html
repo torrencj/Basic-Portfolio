@@ -3,43 +3,47 @@
 <head>
   <head>
     <meta charset="utf-8">
-    <title>My portfolio</title>
+    <title>John Torrence</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
 </head>
+
 <body>
-<nav>
+  <nav>
 
-  <ul>
-    <li style="margin-left: 15%"><a class="active" href="#home">John</a></li>
-    <li style="float:right"><a href="portfolio.html">Portfolio</a></li>
-    <li style="float:right"><a href="contact.html">Contact</a></li>
-    <li style="float:right"><a href="index.html">About</a></li>
+    <ul>
+      <li style="margin-left: 15%"><a class="active" href="index.html">John</a></li>
+      <li style="float:right"><a href="portfolio.html">Portfolio</a></li>
+      <li style="float:right"><a href="contact.html">Contact</a></li>
+      <li style="float:right"><a href="index.html">About</a></li>
 
-  </ul>
-</nav>
+    </ul>
+  </nav>
 
 <main>
 
   <section id="about">
+
+    <div class="container">
     <h1>Get in Touch:</h1>
     <hr>
     <form class="contact-form" action="index.html" method="post">
 
-      <!-- <label for="fname">First Name</label> -->
       <label>Name</label>
       <input type="text" id="name" placeholder="John Smith">
 
-      <!-- <label for="lname">Last Name</label> -->
       <label>Email</label>
       <input type="text" id="email" placeholder="example@gmail.com">
 
       <label>Your Message</label>
       <textarea type="text" id="message" placeholder=""></textarea>
 
-        <input class="button" type="submit" value="Submit">
+      <input class="btn" type="submit" value="Submit">
 
-    </form>
+  </form>
+
+</div>
   </section>
 
   <aside id="connect">
